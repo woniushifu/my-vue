@@ -3,13 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import ElementUi from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
 
 // 引入公共样式表
 import '../src/assets/css/Common-style.css'
 
-Vue.use(ElementUi)
 Vue.use(router)
 Vue.config.productionTip = false
 

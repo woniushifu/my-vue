@@ -1,0 +1,121 @@
+/* 头部样式 */
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #f0f0f0;
+    border-bottom: #c7c7c7 1px solid;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    font-family: "my-font";
+    color: black;   
+}
+.nav{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.nav .logo{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.nav .logo img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.nav .logo div{
+    width: 10px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 45px;
+    margin: auto;
+    background-color: black;
+}
+.nav .logo p{
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    line-height: 36px;
+    left: 70px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.nav .header-nav{
+    position: absolute;
+    width: 800px;
+    height: 100%;
+    left: 200px;
+    display: -moz-box;
+    display: -webkit-box;
+}
+.nav .header-nav div{
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 70px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav .header-nav div:hover{
+    background-color: black;
+    color: #ffcd00;
+}
+.nav .header-box{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.nav .header-box .login{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 50px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    cursor: pointer;  
+}
+.nav .header-box .register{
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    margin: auto;  
+    cursor: pointer;  
+}
+.active{
+    background-color: black;
+    color: #ffcd00;
+    border-bottom: 1px solid #ffcd00;
+}
+@font-face{
+    font-family: "my-font";
+    src: url(../font/jc.eot),url(../font/jc.otf),url(../font/jc.svg),url(../font/jc.ttf),url(../font/jc.woff);
+}
+/* pc端头部样式 */
+
+
+/* move端头部样式 */
