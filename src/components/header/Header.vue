@@ -11,11 +11,12 @@
       <div class="nav">
           <ul>            
               <router-link to="/" class="active" tag='li'>我的</router-link>            
-              <router-link to="/" tag='li'>logo设计</router-link>
+              <router-link to="/" tag='li'>商城</router-link>
               <router-link to="/" tag='li'>赛事活动</router-link>
               <router-link to="/" tag='li'>大师社区</router-link>
           </ul>
        </div>
+       <div class="shopping-cart"></div>
        <div class="right">
         <div class="login">登录</div>
         <div class="register">注册</div>
@@ -70,7 +71,11 @@
 }
 @font-face {
   font-family: myfont-jc;
-  src: url(../../assets/font/jc.ttf);
+  src: url(../../assets/font/jc.ttf),
+       url(../../assets/font/jc.eot),
+       url(../../assets/font/jc.otf),
+       url(../../assets/font/jc.svg),
+       url(../../assets/font/jc.woff);
 }
 .el-header .nav{
   width: 800px;

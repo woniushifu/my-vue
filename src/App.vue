@@ -3,6 +3,7 @@
     <appHeader></appHeader>
     <particulars></particulars>
     <div class="zw">占位</div>
+    <p class="iconfont"></p>
     <div class="footer">
       <div class="footer-box">
         <p>Copyright © 1998 - 2019 Tencent. All Rights Reserved.</p>
@@ -15,6 +16,7 @@
 <script>
 import header from '@/components/header/Header'
 import particulars from './components/Particulars'
+import './assets/fontImg/iconfont.css'
 export default {
   name: 'App',
   data(){
@@ -48,7 +50,8 @@ export default {
   font-size: 12px;
   letter-spacing: 2px;
 }
-.footer .footer-box p{
-  top: 20px;
+.footer .footer-box p:nth-of-type(1){
+  position: relative;
+  top: 20px
 }
 </style>
