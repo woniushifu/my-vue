@@ -13,7 +13,7 @@ import particulars from './components/Particulars'
 import footer from './components/footer/Footer'
 
 // 引入样式
-import './assets/fontImg/iconfont.css'
+import './assets/fontImg/shopcar/iconfont.css'
 export default {
   name: 'App',
   data(){
