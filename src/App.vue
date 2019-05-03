@@ -2,6 +2,8 @@
   <div id="app">
     <appHeader></appHeader>
     <!-- <particulars></particulars> -->
+    
+    <router-view></router-view>
     <appFooter></appFooter>   
   </div>
 </template>

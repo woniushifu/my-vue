@@ -3,7 +3,7 @@
         <div class="footer-box">
             <a class="footer-logo">LOGO</a>
             <div class="licence">
-                <p>《I don't know what to write licence》《我也不知道写什么许可证》 作者邮箱：tel1517844241@163.com</p>
+                <p>《I don't know what to write licence》《我也不知道写什么许可证》 作者邮箱：tel15178442421@163.com</p>
             </div>
         </div>
     </footer>
